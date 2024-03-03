@@ -1,0 +1,13 @@
+strain,name,accession,date,region,location,authors,sample_type,reads_or_assemblies
+BAL73,Nichols,SRR3268726,1973-XX-XX,NAmerica,usa,Arora_2016,rabbit_inoculation,reads
+Chicago_tube2,Nichols,ERS2676913,--XX-XX,NAmerica,usa,Beale_2019,Nichols_rabbit_passage,reads
+NE20,Nichols,SRR3268710,2013-XX-XX,Europe,netherlands,Arora_2016,clinical_acquired,reads
+Nichols_Houston_E,Nichols,ERS2676914,--XX-XX,NAmerica,usa,Beale_2019,Nichols_rabbit_passage,reads
+Nichols_Houston_J,Nichols,ERS2676912,--XX-XX,NAmerica,usa,Beale_2019,Nichols_rabbit_passage,reads
+Nichols_Houston_O,Nichols,ERS2676915,--XX-XX,NAmerica,usa,Beale_2019,Nichols_rabbit_passage,reads
+Seattle_81-4,Nichols,ERS2676916,1980-XX-XX,NAmerica,usa,Beale_2019,-,reads
+UW189B,Nichols,ERS1884599,2004-XX-XX,NAmerica,usa,Beale_2019,low_rabbit_passage,reads
+UW279B,Nichols,ERS1884610,2004-XX-XX,NAmerica,usa,Beale_2019,low_rabbit_passage,reads
+NL14,Nichols,ERS1724928,2016-XX-XX,Europe,uk,Beale_2019,Clinical_Swab,reads
+NL17,Nichols,ERS1724931,2016-XX-XX,Europe,uk,Beale_2019,Clinical_Swab,reads
+NL19,Nichols,ERS1724933,2016-XX-XX,Europe,uk,Beale_2019,Clinical_Swab,reads

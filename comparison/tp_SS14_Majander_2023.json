@@ -1,0 +1,923 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Treponema Pallidum",
+    "updated": "2024-02-20",
+    "build_url": "https://github.com/simona-sof",
+    "maintainers": [
+      {
+        "name": "Simona Skiotyte",
+        "url": "https://github.com/simona-sof"
+      }
+    ],
+    "genome_annotations": {
+      "nuc": {
+        "end": 1141812,
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "location",
+        "title": "Location",
+        "type": "categorical",
+        "scale": [
+          [
+            "japan",
+            "#fb9a99"
+          ],
+          [
+            "uk",
+            "#fdc086"
+          ],
+          [
+            "portugal",
+            "#ffff99"
+          ],
+          [
+            "melbourne",
+            "#4B644B"
+          ],
+          [
+            "ireland",
+            "#b03060"
+          ],
+          [
+            "hungria",
+            "#4363d8"
+          ],
+          [
+            "rusia",
+            "#3cb44b"
+          ],
+          [
+            "zimbabwe",
+            "#808000"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "location",
+      "author"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "location",
+        "demes": {
+          "uk": {
+            "latitude": 6.3110548,
+            "longitude": 20.5447525
+          },
+          "melbourne": {
+            "latitude": -37.8142454,
+            "longitude": 144.9631732
+          },
+          "rusia": {
+            "latitude": 24.4650227,
+            "longitude": 77.40361438300086
+          },
+          "hungria": {
+            "latitude": -23.1947643,
+            "longitude": -47.7242056
+          },
+          "portugal": {
+            "latitude": 39.6621648,
+            "longitude": -8.1353519
+          },
+          "zimbabwe": {
+            "latitude": -18.4554963,
+            "longitude": 29.7468414
+          },
+          "ireland": {
+            "latitude": 52.865196,
+            "longitude": -7.9794599
+          },
+          "japan": {
+            "latitude": 36.5748441,
+            "longitude": 139.2394179
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000005",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2003.9483776162506
+      },
+      "location": {
+        "value": "rusia"
+      },
+      "clade_membership": {
+        "value": "unassigned"
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 1.5795582957152478e-05,
+          "num_date": {
+            "value": 2011.5810085803855
+          },
+          "location": {
+            "value": "hungria"
+          },
+          "clade_membership": {
+            "value": "unassigned"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A232379G",
+              "T232392A",
+              "C232421T",
+              "G232430A",
+              "A232445T",
+              "G232776C",
+              "T232947C",
+              "G235291C",
+              "T236017G",
+              "A236029C",
+              "T236044C",
+              "C236065T",
+              "A280826G",
+              "T280839A",
+              "C280868T",
+              "G280877A",
+              "A280892T",
+              "G281223C",
+              "T281394C",
+              "G283736C",
+              "T284462G",
+              "A284474C",
+              "T284489C",
+              "C284510T",
+              "G978205A",
+              "C978208G",
+              "T978610G",
+              "T978612G",
+              "C978630T",
+              "G978631C",
+              "T978743G",
+              "G978744T",
+              "C978885T",
+              "C978894G",
+              "C978904T",
+              "T979360G",
+              "A979361C"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "TPA_HUN200024",
+            "node_attrs": {
+              "div": 5.44135411862867e-05,
+              "num_date": {
+                "value": 2019.9986301369863
+              },
+              "accession": "ERR5207018",
+              "author": {
+                "author": "Beale et al",
+                "value": "Beale et al"
+              },
+              "location": {
+                "value": "hungria"
+              },
+              "clade_membership": {
+                "value": "unassigned"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A231592G",
+                  "C232104T",
+                  "A232316G",
+                  "T232320C",
+                  "G232338A",
+                  "T232340C",
+                  "G232767A",
+                  "T232785A",
+                  "G232788T",
+                  "C232925G",
+                  "G232935C",
+                  "G232946A",
+                  "G233927A",
+                  "A233930C",
+                  "A233948G",
+                  "A233956C",
+                  "G235465A",
+                  "T235910C",
+                  "T235930C",
+                  "A235958G",
+                  "C236002T",
+                  "A280039G",
+                  "C280551T",
+                  "A280763G",
+                  "T280767C",
+                  "G280785A",
+                  "T280787C",
+                  "G281214A",
+                  "T281232A",
+                  "G281235T",
+                  "C281372G",
+                  "G281382C",
+                  "G281393A",
+                  "G282372A",
+                  "A282375C",
+                  "A282393G",
+                  "A282401C",
+                  "A283900G",
+                  "G283910A",
+                  "T284355C",
+                  "T284375C",
+                  "A284403G",
+                  "C284447T",
+                  "C345842A",
+                  "G399374T",
+                  "G490536A",
+                  "C509652T",
+                  "G775618A",
+                  "A917430G",
+                  "C978625T",
+                  "T978628A",
+                  "G978769A",
+                  "A979346G",
+                  "G979347T",
+                  "T979349G",
+                  "T979350G",
+                  "G1003019T",
+                  "C1140458T"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000000",
+            "node_attrs": {
+              "div": 1.6673099968733498e-05,
+              "num_date": {
+                "value": 2011.8199152940547
+              },
+              "location": {
+                "value": "zimbabwe"
+              },
+              "clade_membership": {
+                "value": "unassigned"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A979357C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "15A019HM",
+                "node_attrs": {
+                  "div": 3.4227237404646813e-05,
+                  "num_date": {
+                    "value": 2015.9986301369863
+                  },
+                  "accession": "DRR213712",
+                  "author": {
+                    "author": "Nishiki",
+                    "value": "Nishiki"
+                  },
+                  "location": {
+                    "value": "japan"
+                  },
+                  "clade_membership": {
+                    "value": "unassigned"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A235526G",
+                      "A247681G",
+                      "A283971G",
+                      "C369298A",
+                      "A978190G",
+                      "G978192A",
+                      "G978194C",
+                      "C978195A",
+                      "A978196G",
+                      "G978197A",
+                      "T978219A",
+                      "T978613A",
+                      "T979344-",
+                      "G979345-",
+                      "T979348G",
+                      "G979356T",
+                      "T979358C",
+                      "T979359G",
+                      "C979362G",
+                      "G1059128A"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "TPA_ZIM028",
+                "node_attrs": {
+                  "div": 2.9838541432094377e-05,
+                  "num_date": {
+                    "value": 2015.8240593133794
+                  },
+                  "accession": "ERR4853625",
+                  "author": {
+                    "author": "Beale et al",
+                    "value": "Beale et al"
+                  },
+                  "location": {
+                    "value": "zimbabwe"
+                  },
+                  "clade_membership": {
+                    "value": "unassigned"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T151234C",
+                      "A190240G",
+                      "T232460C",
+                      "C232462T",
+                      "G232471A",
+                      "T280907C",
+                      "C280909T",
+                      "G280918A",
+                      "A348522G",
+                      "G595291A",
+                      "C772430T",
+                      "C875790A",
+                      "C923274T",
+                      "-978352G",
+                      "-978353G",
+                      "G978611C",
+                      "G978612C",
+                      "-979351C",
+                      "-979352C",
+                      "-979353G"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000002",
+        "node_attrs": {
+          "div": 2.544862191528511e-05,
+          "num_date": {
+            "value": 2010.456304552229
+          },
+          "location": {
+            "value": "rusia"
+          },
+          "clade_membership": {
+            "value": "unassigned"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "TPA_RUS_Tuva-41",
+            "node_attrs": {
+              "div": 5.6168721077170564e-05,
+              "num_date": {
+                "value": 2014.9986301369863
+              },
+              "accession": "ERR5207019",
+              "author": {
+                "author": "Beale et al",
+                "value": "Beale et al"
+              },
+              "location": {
+                "value": "rusia"
+              },
+              "clade_membership": {
+                "value": "unassigned"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A61142G",
+                  "T149259G",
+                  "C149260T",
+                  "G149264A",
+                  "T152306C",
+                  "T152396G",
+                  "A158443G",
+                  "G158444A",
+                  "C158445T",
+                  "C158454T",
+                  "C158466T",
+                  "G162207A",
+                  "C248426T",
+                  "G495429A",
+                  "G566075A",
+                  "A782328G",
+                  "C804264T",
+                  "G855235A",
+                  "T947913C",
+                  "G953869A",
+                  "T978641C",
+                  "T978878C",
+                  "T978883G",
+                  "G978884C",
+                  "G978886C",
+                  "A978898T",
+                  "C978899G",
+                  "-979351C",
+                  "-979352C",
+                  "-979353G",
+                  "T979359C",
+                  "C979365G",
+                  "C979366T",
+                  "A979367T",
+                  "C979385A",
+                  "A979386C",
+                  "G994208A",
+                  "G1064584T"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 2.72036545958678e-05,
+              "num_date": {
+                "value": 2011.4735510965127
+              },
+              "location": {
+                "value": "portugal"
+              },
+              "clade_membership": {
+                "value": "unassigned"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C337872T",
+                  "C775013T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "PT_SIF1196",
+                "node_attrs": {
+                  "div": 3.598097640625955e-05,
+                  "num_date": {
+                    "value": 2013.9767228461
+                  },
+                  "accession": "SRR3584843",
+                  "author": {
+                    "author": "Pinto, M. et al.",
+                    "value": "Pinto, M. et al."
+                  },
+                  "location": {
+                    "value": "portugal"
+                  },
+                  "clade_membership": {
+                    "value": "unassigned"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C158485G",
+                      "T159101C",
+                      "A615022G",
+                      "T712271C",
+                      "C802638T",
+                      "T1054088G",
+                      "C1054089G",
+                      "T1054091G",
+                      "C1054094G",
+                      "T1054203C"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 2.8081175752029952e-05,
+                  "num_date": {
+                    "value": 2011.9320249255625
+                  },
+                  "clade_membership": {
+                    "value": "unassigned"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T775262C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NL16",
+                    "node_attrs": {
+                      "div": 3.861408521975661e-05,
+                      "num_date": {
+                        "value": 2016.0013661202186
+                      },
+                      "accession": "ERS1724930",
+                      "author": {
+                        "author": "Beale et al,",
+                        "value": "Beale et al,"
+                      },
+                      "clade_membership": {
+                        "value": "unassigned"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A156656G",
+                          "A158397G",
+                          "A158398T",
+                          "C158406T",
+                          "C158409T",
+                          "C158454T",
+                          "G339320A",
+                          "G347174A",
+                          "C431328T",
+                          "G464018A",
+                          "G464019A",
+                          "T802646C"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NE19",
+                    "node_attrs": {
+                      "div": 3.334767484473308e-05,
+                      "num_date": {
+                        "value": 2013.4423159848386
+                      },
+                      "accession": "SRR3268709",
+                      "author": {
+                        "author": "Arora",
+                        "value": "Arora"
+                      },
+                      "clade_membership": {
+                        "value": "unassigned"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A288293G",
+                          "T389122C",
+                          "C418165G",
+                          "G972875A",
+                          "C1037403T",
+                          "G1127692A"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 2.9836221676712367e-05,
+                      "num_date": {
+                        "value": 2012.1182736370538
+                      },
+                      "clade_membership": {
+                        "value": "unassigned"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T337872C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "AR2",
+                        "node_attrs": {
+                          "div": 3.246942621881511e-05,
+                          "num_date": {
+                            "value": 2013.1131219781294
+                          },
+                          "accession": "SRR3268682",
+                          "author": {
+                            "author": "Arora et al,",
+                            "value": "Arora et al,"
+                          },
+                          "clade_membership": {
+                            "value": "unassigned"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G158482A",
+                              "C710442T",
+                              "T978763C",
+                              "G978769A"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "div": 4.124405579891197e-05,
+                          "num_date": {
+                            "value": 2014.1443570995334
+                          },
+                          "clade_membership": {
+                            "value": "unassigned"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C174442T",
+                              "A235526G",
+                              "A283971G",
+                              "G343626A",
+                              "C557820T",
+                              "G594960A",
+                              "G594964A",
+                              "T761829C",
+                              "C978633T",
+                              "C978904T",
+                              "T979350G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000008",
+                            "node_attrs": {
+                              "div": 4.299909537645875e-05,
+                              "num_date": {
+                                "value": 2014.7592774910895
+                              },
+                              "location": {
+                                "value": "uk"
+                              },
+                              "clade_membership": {
+                                "value": "unassigned"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T978613C",
+                                  "G978871A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "PHE160190A",
+                                "node_attrs": {
+                                  "div": 5.792013159597655e-05,
+                                  "num_date": {
+                                    "value": 2016.9986338797814
+                                  },
+                                  "accession": "ERR3684456",
+                                  "author": {
+                                    "author": "Beale et al",
+                                    "value": "Beale et al"
+                                  },
+                                  "location": {
+                                    "value": "uk"
+                                  },
+                                  "clade_membership": {
+                                    "value": "unassigned"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T150837G",
+                                      "G150838T",
+                                      "G151067A",
+                                      "A535243G",
+                                      "A595293G",
+                                      "T978882-",
+                                      "C978885G",
+                                      "G978887A",
+                                      "A978889G",
+                                      "C978890T",
+                                      "G978891T",
+                                      "T978892G",
+                                      "T978893C",
+                                      "C978895G",
+                                      "T978902G"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "TPA_EIR017",
+                                "node_attrs": {
+                                  "div": 4.6509902613385304e-05,
+                                  "num_date": {
+                                    "value": 2018.0013698630137
+                                  },
+                                  "accession": "ERR4853587",
+                                  "author": {
+                                    "author": "Beale et al",
+                                    "value": "Beale et al"
+                                  },
+                                  "location": {
+                                    "value": "ireland"
+                                  },
+                                  "clade_membership": {
+                                    "value": "unassigned"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G973253A",
+                                      "G978769A",
+                                      "C978896T",
+                                      "T978901G",
+                                      "G978903C"
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000009",
+                            "node_attrs": {
+                              "div": 4.475413893508319e-05,
+                              "num_date": {
+                                "value": 2014.807842572999
+                              },
+                              "location": {
+                                "value": "melbourne"
+                              },
+                              "clade_membership": {
+                                "value": "unassigned"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A978190G",
+                                  "G978192A",
+                                  "G978194C",
+                                  "C978195A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "TPAUS_099",
+                                "node_attrs": {
+                                  "div": 6.05520137399056e-05,
+                                  "num_date": {
+                                    "value": 2016.9986338797814
+                                  },
+                                  "accession": "SRR15440150",
+                                  "author": {
+                                    "author": "Taouk, Mona L., et al.",
+                                    "value": "Taouk, Mona L., et al."
+                                  },
+                                  "location": {
+                                    "value": "melbourne"
+                                  },
+                                  "clade_membership": {
+                                    "value": "unassigned"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T149393C",
+                                      "G299623T",
+                                      "C334481T",
+                                      "C802575A",
+                                      "A820617G",
+                                      "T939136C",
+                                      "C978189A",
+                                      "A978193G",
+                                      "T978610G",
+                                      "T978633C",
+                                      "T978641C",
+                                      "T978756C",
+                                      "C978760A",
+                                      "T978763C",
+                                      "G978769A",
+                                      "G979342T",
+                                      "G979343T",
+                                      "T979344G",
+                                      "A979346G",
+                                      "-979351G"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "TPAUS_682",
+                                "node_attrs": {
+                                  "div": 5.440831480885178e-05,
+                                  "num_date": {
+                                    "value": 2018.0013698630137
+                                  },
+                                  "accession": "SRR15440240",
+                                  "author": {
+                                    "author": "Taouk, Mona L., et al.",
+                                    "value": "Taouk, Mona L., et al."
+                                  },
+                                  "location": {
+                                    "value": "melbourne"
+                                  },
+                                  "clade_membership": {
+                                    "value": "unassigned"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G148569T",
+                                      "A148572T",
+                                      "C151498G",
+                                      "A443278G",
+                                      "A667041G",
+                                      "T802634C",
+                                      "T978742C",
+                                      "C978752T",
+                                      "C978885T",
+                                      "C978888G",
+                                      "C978894G",
+                                      "T978902G"
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "title": "Treponema Pallidum",
+    "maintainers": [
+      {"name": "Simona Skiotyte", "url": "https://github.com/simona-sof"}
+    ],
+    "build_url": "https://github.com/simona-sof",
+    "colorings": [
+     {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+     },
+     {
+      "key": "num_date",
+      "title": "Sampling date",
+      "type": "continuous"
+     },
+     {
+      "key": "clade_membership",
+      "title": "Clade",
+      "type": "categorical"
+     },
+     {
+       "key": "location",
+       "title": "Location",
+       "type": "categorical"
+     }
+    ],
+    "geo_resolutions": [
+      "location"
+    ],
+    "filters": [
+     "location",
+     "author"
+    ]
+   }
